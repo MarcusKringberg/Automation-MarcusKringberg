@@ -1,0 +1,22 @@
+{
+  "name": "cypress",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "cypress:open": "cypress open",
+    "cypress:run" : "cypress run --reporter mochawesome",
+    "test": "/home/marcus/Cypress/cypress/integration"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "mochawesome": "^7.0.0",
+    "mochawesome-merge": "^4.2.0"
+  },
+  "devDependencies": {
+    "cypress": "^8.7.0",
+    "mocha": "^5.2.0"
+  }
+}
