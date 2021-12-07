@@ -1,8 +1,8 @@
 ///<reference types="cypress"/>
 
-import { createfunction } from "./Createfunction.spec"
-import { loginfunction } from "./login.spec"
-import { logoutfunction } from "./logoutfunction.spec"
+import { createfunction } from "./Page_objects.spec"
+import { loginfunction } from "./Page_objects.spec"
+import { logoutfunction } from "./Page_objects.spec"
 
 it ("Bill",function(){
 loginfunction(cy)

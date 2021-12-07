@@ -1,7 +1,8 @@
 ///<reference types="cypress"/>
 
-import { loginfunction } from "./login.spec"
-import { logoutfunction } from "./logoutfunction.spec"
+import { loginfunction } from "./Page_objects.spec"
+import { logoutfunction } from "./Page_objects.spec"
+import { createfunction } from "./Page_objects.spec"
 
 describe("Login",function() {
     it("Login", function() { 
@@ -18,8 +19,7 @@ describe("Login",function() {
       cy.get(":nth-child(1)> input").type("Jonas Hagblom")
       cy.get(field_for_email).type(Email_to_the_costumer)
       cy.get(":nth-child(3)> input").type(Phone_number_to_the_costumer)
-      const create_button = ".blue"
-      cy.get(create_button).click()
+      createfunction(cy)
       logoutfunction(cy)
     })
 })

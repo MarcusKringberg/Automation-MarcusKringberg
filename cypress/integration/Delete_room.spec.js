@@ -1,6 +1,6 @@
-import { deletefunction } from "./deletefunction.spec"
-import { loginfunction } from "./login.spec"
-import { logoutfunction } from "./logoutfunction.spec"
+import { deletefunction } from "./Page_objects.spec"
+import { loginfunction } from "./Page_objects.spec"
+import { logoutfunction } from "./Page_objects.spec"
 
 ///<reference types="cypress"/>
 it("test",function(){

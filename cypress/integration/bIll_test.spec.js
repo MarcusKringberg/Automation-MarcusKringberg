@@ -1,7 +1,7 @@
 ///<reference types="cypress"/>
 
-import {loginfunction} from "./login.spec"
-import {logoutfunction} from "./logoutfunction.spec" 
+import {loginfunction} from "./Page_objects.spec"
+import {logoutfunction} from "./Page_objects.spec" 
 describe("Login",function() {
     it("Login", function() { 
       loginfunction(cy)

@@ -5,7 +5,6 @@ import { loginfunction } from "./Page_objects.spec"
 import { logoutfunction } from "./Page_objects.spec"
 
 it ("delete bill",function(){
-    cy.visit("http://localhost:3000")
 loginfunction(cy)
 
 cy.wait(5000)

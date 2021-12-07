@@ -1,9 +1,9 @@
 ///<reference types="cypress"/>
 
-import { createfunction } from "./Createfunction.spec"
-import { deletefunction } from "./deletefunction.spec"
-import { loginfunction } from "./login.spec"
-import { logoutfunction } from "./logoutfunction.spec"
+import { createfunction } from "./Page_objects.spec"
+import { deletefunction } from "./Page_objects.spec"
+import { loginfunction } from "./Page_objects.spec"
+import { logoutfunction } from "./Page_objects.spec"
 
 describe("Login",function() {
     it("Login", function() { 
